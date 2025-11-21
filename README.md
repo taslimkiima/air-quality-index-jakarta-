@@ -1,15 +1,5 @@
 
-# 💨 ATMOSFERA-X: Platform Hybrid Recommender System untuk Mitigasi Polusi Udara DKI Jakarta
-
-## Deskripsi Proyek
-
-Proyek ini mengimplementasikan Sistem Rekomendasi **Hybrid (Fusi)** yang dirancang untuk memberikan dukungan keputusan **proaktif** dan **terstruktur** terhadap risiko polusi udara $\mathbf{PM}_{2.5}$ di DKI Jakarta. Sistem ini bertujuan untuk menjembatani kesenjangan antara data *time series* yang kompleks dengan tindakan mitigasi yang cepat dan spesifik.
-
-Aplikasi utama disajikan melalui dashboard interaktif **Streamlit**.
-
 ## 🧠 Arsitektur & Metodologi Utama
-
-Sistem Atmosfera-X menggabungkan tiga metode utama untuk menjamin rekomendasi yang akurat dan kontekstual:
 
 1.  **Content-Based Filtering (CBF):**
       * **Tujuan:** Prediksi dini status $\mathbf{TIDAK\ SEHAT}$ (24 jam ke depan).
@@ -68,3 +58,4 @@ streamlit run app.py
 Aplikasi akan terbuka secara otomatis di *browser* Anda.
 
 -----
+
